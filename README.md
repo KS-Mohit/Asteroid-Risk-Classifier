@@ -41,18 +41,29 @@ It includes:
 ---
 
 ## Project Structure
-├── api.py # Flask backend API
+
+```txt
+asteroid-risk-classifier/
+├── api.py                             # Flask backend API
 ├── asteroid_diameter_prediction.ipynb # Training and EDA notebook
-├── frontend/ # Next.js frontend
-│ ├── src/app # App Router pages
-│ └── src/components # Input form and logic
-├── neo_model.pkl # Trained model (excluded from repo)
-├── scaler.pkl, imputer.pkl # Preprocessing artifacts
-├── requirements.txt # Python dependencies
-└── .gitignore
-
-
----
+├── frontend/                          # Next.js frontend
+│   ├── src/
+│   │   ├── app/                       # App Router pages
+│   │   └── components/               # Input form and logic
+│   ├── public/                        # Static assets (SVGs, icons)
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── tailwind.config.ts
+├── models/                            # Model artifacts (excluded from repo)
+│   ├── neo_model.pkl
+│   ├── scaler.pkl
+│   └── imputer.pkl
+├── img/                               # Screenshots
+│   └── Risk_Classification.png
+├── requirements.txt                   # Python dependencies
+├── .gitignore
+└── README.md
+```
 
 ## Setup & Usage
 
