@@ -9,6 +9,8 @@ It includes:
 
 ---
 
+![Risk Classifier Screenshot](./img/Risk_Classification.png)
+
 ## Features
 
 - **ML Pipeline:** Trained multiple regression and classification models on orbital datasets; Decision Tree Regressor achieved 97% test accuracy.
